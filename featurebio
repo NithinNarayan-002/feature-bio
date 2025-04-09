@@ -1,9 +1,7 @@
 cd feature-bio-repo
-
 # Create README.md with your name and today’s date
 echo "Name: Your-Name" > README.md
 echo "Date: $(date +%Y-%m-%d)" >> README.md
-
 # Add, commit, and push the file to GitHub
 git add README.md
 git commit -m "Added README with name and date"
