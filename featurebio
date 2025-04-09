@@ -1,0 +1,10 @@
+cd my-first-devops-repo
+
+git checkout -b feature-bio
+
+echo -e "\nBio: I enjoy working with Python and love hiking in my free time." >> README.md
+
+git add README.md
+git commit -m "Added short bio to README"
+
+git push origin feature-bio
