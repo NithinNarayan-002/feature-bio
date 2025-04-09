@@ -1,10 +1,11 @@
+
 cd my-first-devops-repo
 
-git checkout -b feature-bio
+# Create README.md with your name and today’s date
+echo "Name: Your-Name" > README.md
+echo "Date: $(date +%Y-%m-%d)" >> README.md
 
-echo -e "\nBio: I enjoy working with Python and love hiking in my free time." >> README.md
-
+# Add, commit, and push the file to GitHub
 git add README.md
-git commit -m "Added short bio to README"
-
-git push origin feature-bio
+git commit -m "Added README with name and date"
+git push origin main
