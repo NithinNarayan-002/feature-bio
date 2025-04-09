@@ -1,5 +1,4 @@
 cd feature-bio-repo
-
 # Create README.md with your name and today’s date
 echo "Name: Your-Name" > README.md
 echo "Date: $(date +%Y-%m-%d)" >> README.md
